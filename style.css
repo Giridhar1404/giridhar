@@ -1,0 +1,141 @@
+/* 
+introduction to CSS
+Box Model
+Login
+profile card
+more....
+ */
+
+ /* class name always starts with a dot */
+
+ /* typography */
+ .title{
+    text-align: center;
+    font-size: 50px;
+    color: blueviolet;
+    text-decoration: underline;
+    /* word-spacing: 30px; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+
+/* box model
+    border => thickness, style (dotted, dashed, groove), color
+    padding
+    margin
+*/
+.card{
+    text-align:left;
+    border: 1px solid rgb(162, 157, 157);
+    width: 300px;
+    padding: 10px ;
+    margin:20px auto;
+    border-radius: 16px;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.ca{
+    text-align:left;
+    border: 1px solid rgb(162, 157, 157);
+    width: 400px;
+    padding: 10px ;
+    margin:20px auto;
+    border-radius: 16px;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.car{
+    align-content: center;
+    align-items: center;
+    text-align: left;
+    align-self: center;
+    background-color: rgb(58, 252, 136);
+    text-align:left;
+    border: 1px solid rgb(162, 157, 157);
+    height: 400px;
+    width: 400px;
+    padding: 10px ;
+    margin:20px auto;
+    border-radius: 5px;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card-img{
+    width: 100%;
+    border-radius: 16px;
+}
+.user-img{
+    height: 100px;
+    width: 100%;
+    border-radius: 10%;
+}
+.btn{
+    background-color: rgb(252, 252, 252);
+    color: rgb(58, 13, 223);
+    border: 50%;
+    padding: 10px 28px;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 50%;
+    font-family: cursive;
+}
+.h{
+    background-color: rgb(252, 252, 252);
+    color: rgb(58, 13, 223);
+    border: 50%;
+    padding: 10px 28px;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 100%;
+    font-family: cursive;
+}
+.bt{
+    background-color: rgb(252, 252, 252);
+    color: rgb(58, 13, 223);
+    border:100% ;
+    padding: 0%;
+    border-radius: 0%;
+    font-size: 16px;
+    width: 100%;
+    font-family: cursive;
+}
+.b{
+    align-items: center;
+    background-color: rgb(252, 252, 252);
+    color: rgb(58, 13, 223);
+    border:1px ;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    width: 40%;
+    font-family: cursive;
+}
+.us-img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.login-card{
+    /* border: 3px solid red; */
+    align-self: center;
+    text-align: center;
+    width: 400px;
+    margin: 80px auto;
+    font-family:cursive;
+}
+.input{
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+    padding: 16px;
+    border-radius: 12px;
+    border: 1px solid lightgray;
+    font-size: 17px;
+}
+.login-btn{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 16px 36px;
+    font-size: 16px;
+    border-radius: 50px;
+}
